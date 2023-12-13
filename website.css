@@ -1,0 +1,144 @@
+*,html {
+	margin:0;
+	padding:0;
+}
+
+/*NAVBAR*/
+.nav-bar{
+	background-color:red;
+	height:10vh;
+	
+}
+
+.ul-navbar{
+	background-color:gray;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:70px
+}
+	
+
+.li-navbar{
+	list-style-type:none;
+	padding:6px;
+	font-size:20px;
+	margin: 10px 15px 18px 15px;
+}
+
+.a-navbar{
+	text-decoration:none;
+	color:white;
+}
+
+.a-navbar:hover{
+	background-color:black;
+	border-radius:5px;
+	color:tomato;
+	transition:.2 ease-in-out;
+	padding:5px;
+	font-size:27px;
+}
+
+
+/*NAVBAR SELESAI*/
+
+/*CONTENT 1*/
+
+.content1{
+	background-color:#cccccc;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:80vh;
+	
+}
+
+.content1-img{
+	width:80%;
+	height:80%;
+	display:flex;
+}
+
+.a-content{
+	background-color:#999999;
+	color:black;
+	text-decoration:none;
+	width:400px;
+	height:300px;
+	justify-content:space-evenly;
+	align-items:center;
+	flex-direction:column;
+	display:flex;
+	border-radius:20px;
+}
+
+.a-content:hover{box-shadow:box-shadow: 0px 0px 21px 11px rgba(255,255,255,1);
+-webkit-box-shadow: 0px 0px 21px 11px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 21px 11px rgba(255,255,255,1);
+}
+
+.content-box{
+	background-color:#999999;
+	width:400px;
+	height:300px;
+	border-radius:20px;
+	
+}
+
+.content-box-p{
+	background-color:#999999;
+	height:300px;
+	width:400px;
+	font-size:30px;
+	border-radius:20px;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	font-family:cursive;
+}
+
+.content-box-p:hover{
+	box-shadow:box-shadow: 0px 0px 21px 11px rgba(255,255,255,1);
+-webkit-box-shadow: 0px 0px 21px 11px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 21px 11px rgba(255,255,255,1);
+}
+
+
+.span{
+	color:red;
+}
+
+
+/*CONTENT 1 SELESAI*/
+
+/*FOOTER*/
+.footer{
+	background-color:gray;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:7vh;
+}
+
+.h1-footer{
+	color:white;
+}
+
+/*FOOTER SELESAI*/
+
+/*FOOTER 2*/
+
+.footer2{
+	background-color:gray;
+	height:3vh;
+}
+
+.footer2-p{
+	color:#cccccc;
+	text-align:right;
+}
+
+/*FOOTER 2 SELESAI*/
+
